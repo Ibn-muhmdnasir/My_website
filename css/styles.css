@@ -1,0 +1,257 @@
+body{
+    background: linear-gradient(270deg, color(srgb 0.01 0.01 0.01), #2C2C2C);
+    color: #ADB5BD;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+h1{
+    text-align: center;
+    color: #FCBF49;
+    font-weight: 700;
+    font-size: 250%;
+}
+
+h2{
+    text-align: center;
+    color: #FCBF49;
+    font-size: 200%;
+}
+
+
+a{
+    color: #ADB5BD;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #F77F00;
+}
+
+
+em{
+    color: #FCBF49;
+}
+
+hr{
+    border-style: solid;
+    height: 0px;
+    color: #F77F00;
+}
+
+
+/* Home page */
+
+.logo-container{
+    width: fit-content;
+    height: fit-content;
+}
+
+.logo-name{
+    position: absolute;
+    left: 100px;
+    top: 45px;
+    font-size: 70%;
+}
+
+
+.Intro-picture{
+    position: absolute;
+    bottom: 0px;
+    right: 17%;
+    height: 85%;
+    width: 60%;
+}
+
+.Intro-hello{
+    position: absolute;
+    left: 15%;
+    font-weight: 800;
+    font-size: 850%;
+    color: #ADB5BD;
+}
+
+.Intro-name-line{
+    position: absolute;
+    left: 15%;
+    top: 58%;
+    content: "";
+    display: block;
+    border-top: 2px solid #ADB5BD;
+    margin-bottom: 5px;
+    width: 4%;
+}
+
+.Intro-name{
+    position: absolute;
+    left: 20%;
+    top: 57%;
+    color: #ADB5BD;
+}
+
+.side-bar{
+    position: absolute;
+    font-style: normal;
+    right: 1.4rem;
+    top: 5.6rem;
+    text-align: right;
+    color: #ADB5BD;
+}
+
+/* About me */
+
+.about-line{
+    position: absolute;
+    top: 16.75%;
+    left: 21%;
+    width: 4rem;
+    height: 0.1rem;
+    background-color: #FCBF49;
+}
+
+.name{
+    color: #F77F00;
+}
+
+.Ptables{
+    text-align: initial;
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 23.5rem;
+}
+
+.Stables{
+    text-align: initial;
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 32.5rem;
+}
+
+.col-1{
+    font-weight: 600;
+}
+
+.col-2{
+    color: #FCBF49;
+}
+
+.Intro{
+    width: 47.5%;
+    display: flex;
+    flex-direction: column;
+    text-align: initial;
+}
+
+.below-pp{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    height: 12rem;
+    width: 9rem;
+    background-color: #F77F00;
+    border-radius: 0 0 1rem 0;
+}
+
+.pp{
+    position: absolute;
+    top: 0%;
+    left: 1%;
+    height: 11rem;
+    width: 9rem;
+    background-color: #ADB5BD;
+    border-radius: 0 0 1rem 1rem;
+}
+
+.top-container{
+    text-align: -webkit-center;
+}
+
+.middle-container{
+    text-align: center;
+}
+
+.bottom-container{
+    text-align: center;
+}
+
+/* My Portfolio */
+
+.portfolio-message{
+    position: absolute;
+    top: 35%;
+    left: 37%;
+    font-size: 4.4rem;
+    color: #ADB5BD;
+}
+
+/* Contact me */
+
+.contact-message{
+    position: absolute;
+    top: 20%;
+    left: 2%;
+    width: 25%;
+    font-size: 130%;
+    color: #ADB5BD;
+}
+
+.contact-me{
+    position: absolute;
+    top: 40%;
+    left: 2%;
+}
+
+.contact-table{
+    font-size: 130%;
+    left: 400px;
+    top: 130px;
+}
+
+form{
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    width: 45%;
+}
+
+label{
+    font-size: 110%;
+    color: #ADB5BD;
+}
+
+input{
+    width: 70%;
+    background-color: #F2E9E4;
+}
+
+textarea{
+    background-color: #F2E9E4;
+    width: 70%;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 110%;
+}
+
+.submit{
+    position: absolute;
+    left: 27%;
+    top: 105%;
+    width: 20%;
+}
+
+/* Copyright */
+
+.Copyright{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    width: 10%;
+    height: 9%;
+    background-color: #ADB5BD;
+    color: #414141;
+    text-align: center;
+    border: none;
+    border-radius: 20px 0 0 0;
+    font-size: 80%;
+    font-weight: 700;
+}
